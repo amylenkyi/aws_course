@@ -15,4 +15,4 @@ sudo yum install -y python3 python3-devel git
 sudo git clone https://github.com/horakihor/aws_course.git /opt/aws_course && \
 cd /opt/aws_course/app/ && \
 sudo make setup && \
-sudo make run POSTGRES_URL="localhost:5432"
+sudo make run POSTGRES_URL="10.188.176.3:5432"
